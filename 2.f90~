@@ -1,0 +1,12 @@
+program main
+  real*8 x, y, v, vx, vy, teta
+  real*8 parameter :: pi=datan(-1.d0), dt=.01d0, g=9.80665d0
+  x=0
+  y=0
+  v=700
+  teta = pi/2
+  vx=v*dcos(teta)
+  vy=v*dsin(teta)
+
+  
+end program main
